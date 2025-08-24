@@ -1,18 +1,12 @@
-import 'dart:async';
-
 import 'package:get/get.dart';
-import 'package:talikhat_clone/app/routes/app_pages.dart';
 
-class SplashController extends GetxController {
-  //TODO: Implement SplashController
+class AuthController extends GetxController {
+  //TODO: Implement AuthController
 
   final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
-    Timer(const Duration(seconds: 3), () {
-      Get.offAllNamed(Routes.AUTH);
-    });
   }
 
   @override

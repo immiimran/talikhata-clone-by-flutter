@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-
-import 'package:get/get.dart';
-
+import 'package:talikhat_clone/exports.dart';
 import '../controllers/splash_controller.dart';
 
 class SplashView extends GetView<SplashController> {
@@ -10,13 +7,17 @@ class SplashView extends GetView<SplashController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('SplashView'),
+        title: const Text(
+          "TALIKHATA",
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
         centerTitle: true,
       ),
-      body: const Center(
-        child: Text(
-          'SplashView is working',
-          style: TextStyle(fontSize: 20),
+      body: Center(
+        child: Image.asset(
+          'assets/images/logo.png',
+          height: 200,
+          width: 200,
         ),
       ),
     );
