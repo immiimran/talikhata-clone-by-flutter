@@ -1,9 +1,16 @@
-import 'app/core/config/themes/app_theme.dart';
 import 'exports.dart';
 
 void main() {
-  runApp(
-    GetMaterialApp(
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    MediaQueryHelpers.initialize(context);
+    return GetMaterialApp(
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
       // themeMode: ThemeMode.system,
@@ -11,6 +18,6 @@ void main() {
       title: "Application",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
-    ),
-  );
+    );
+  }
 }
