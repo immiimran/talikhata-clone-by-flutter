@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "592106211553",
+    "project_id": "talikhata-clone",
+    "storage_bucket": "talikhata-clone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592106211553:android:2e7352293ebd65241c4fa0",
+        "android_client_info": {
+          "package_name": "com.example.talikhat_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY7Jd61qtQ-UeaWfow0oGOmHuTNnnj6VQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

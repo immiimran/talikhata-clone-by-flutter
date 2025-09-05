@@ -5,5 +5,6 @@ export 'constant/image.dart';
 export 'app/routes/app_pages.dart';
 export 'package:talikhat_clone/app/core/helper/media_query_helpers.dart';
 export 'package:flutter_svg/flutter_svg.dart';
-export  'package:talikhat_clone/app/core/config/themes/colors.dart';
+export 'package:talikhat_clone/app/core/config/themes/colors.dart';
 export 'package:talikhat_clone/app/core/config/themes/app_theme.dart';
+export 'package:talikhat_clone/app/widgets/custom_text_field.dart';
